@@ -1,6 +1,6 @@
 # Blue Taskbink
 
-*Disclaimer: Please be careful when using this app on your local machine. This is meant for demonstration purposes, so please do not clone and commit to this repository. If anyone other than the owner has contributed to this repo, they may have added harmful code. If so, do not run this app on your local machine.*
+*Disclaimer: Please be careful when using this app on your local machine. This is a personal project meant for demonstration purposes, so please do not commit to this repository. If anyone other than the owner has contributed to this repo, they may have added harmful code. If so, do not run this app on your local machine.*
 
 Organize your daily tasks based on your personal resource capacity, i.e. time availability, "SP (sanity points)", and user-defined resources.
 
@@ -33,13 +33,18 @@ Organize your daily tasks based on your personal resource capacity, i.e. time av
 
 ## Version 1.1 Business Requirements
 
+- PHP security considerations are implemented
+- Access restriction is implemented in the database by user
+
+## Version 1.2 Business Requirements
+
 - "Rest" toggle setting will be available for tasks
   - Non-time resources will be subtracted from Bin usage upon completion
 - SP will be defined and implemented
 - Currency will be implemented
   - Common currencies will be readily available
 
-## Version 1.2 Business Requirements
+## Version 1.3 Business Requirements
 
 - User-defined resource option will be available
 - Prefix/suffix option will be available for user-defined resources
